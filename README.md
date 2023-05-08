@@ -9,4 +9,5 @@ docker-compose up -d
 
 ## Setting
 **MySQL**: ```localhost:3306```
+
 **phpmyadmin**: ```localhost:8081```

@@ -2,7 +2,10 @@
 
 Database: https://www.mysqltutorial.org/mysql-sample-database.aspx
 
+### IMPORTANTE: Ricordarsi di aggiungere le credenziali nel file .env
+
 ## Run
+Installare Docker https://docs.docker.com/get-docker/ e avviare i container:
 ```
 docker-compose up -d
 ```

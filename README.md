@@ -2,6 +2,14 @@
 
 Database: https://www.mysqltutorial.org/mysql-sample-database.aspx
 
+### Clonare il repository
+Utilizzare GitHub Desktop o il tasto di download 'code'.
+
+Invece da terminale:
+```
+git clone https://github.com/AndreaAvignone/mysql-docker.git
+```
+
 ### IMPORTANTE: Ricordarsi di aggiungere le credenziali nel file .env
 ```
 MYSQL_USER=user
@@ -10,13 +18,13 @@ MYSQL_PASSWORD=user_password
 MYSQL_DATABASE=name
 ```
 
-## Run
+### Run
 Installare Docker https://docs.docker.com/get-docker/ e avviare i container:
 ```
 docker-compose up -d
 ```
 
-## Setting
+### Setting
 **MySQL**: ```localhost:3306```
 
 **phpmyadmin**: ```localhost:8081```

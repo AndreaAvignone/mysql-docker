@@ -10,6 +10,8 @@ Invece da terminale:
 git clone https://github.com/AndreaAvignone/mysql-docker.git
 ```
 
+Per utenti Mac M* togliere il commento a ```platform: linux/amd64```
+
 ### IMPORTANTE: Ricordarsi di aggiungere le credenziali nel file .env
 ```
 MYSQL_USER=user

@@ -3,6 +3,12 @@
 Database: https://www.mysqltutorial.org/mysql-sample-database.aspx
 
 ### IMPORTANTE: Ricordarsi di aggiungere le credenziali nel file .env
+```
+MYSQL_USER=user
+MYSQL_ROOT_PASSWORD=root_password
+MYSQL_PASSWORD=user_password
+MYSQL_DATABASE=name
+```
 
 ## Run
 Installare Docker https://docs.docker.com/get-docker/ e avviare i container:

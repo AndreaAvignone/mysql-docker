@@ -18,6 +18,10 @@ Installare Docker https://docs.docker.com/get-docker/ e avviare i container:
 docker-compose up -d
 ```
 
+Per fermarlo:
+```
+docker-compose down
+```
 ### Setting
 **MySQL**: ```localhost:3306```
 

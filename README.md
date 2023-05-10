@@ -10,10 +10,10 @@ Invece da terminale:
 git clone https://github.com/AndreaAvignone/mysql-docker.git
 ```
 
-Per utenti Mac M* togliere il commento a ```platform: linux/amd64```
+Per utenti Mac M* togliere il commento a ```platform: linux/amd64``` in ```docker-compose.yml```
 
 ### Run
-Installare Docker https://docs.docker.com/get-docker/ e avviare i container:
+Installare Docker https://docs.docker.com/get-docker/ e avviare i container da dentro la cartella *mysql-docker*:
 ```
 docker-compose up -d
 ```
@@ -26,3 +26,5 @@ docker-compose down
 **MySQL**: ```localhost:3306```
 
 **phpmyadmin**: ```localhost:8081```
+
+Per verificare il funzionamento accedere come root a *phpMyAdmin* e verificare la presenza di *classicmodels*.

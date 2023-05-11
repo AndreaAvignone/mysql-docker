@@ -18,6 +18,12 @@ Installare Docker https://docs.docker.com/get-docker/ e avviare i container da d
 docker-compose up -d
 ```
 
+Su Linux potrebbe essere richiesto *sudo*
+
+```
+sudo docker-compose up -d
+```
+
 Per fermarlo:
 ```
 docker-compose down

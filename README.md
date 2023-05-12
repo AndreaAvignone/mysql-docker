@@ -33,4 +33,4 @@ docker-compose down
 
 **phpmyadmin**: ```localhost:8081```
 
-Per verificare il funzionamento accedere come root a *phpMyAdmin* e verificare la presenza di *classicmodels*.
+Per verificare il funzionamento accedere a *phpMyAdmin* e verificare la presenza di *classicmodels*.
